@@ -1,0 +1,248 @@
+* {
+    box-sizing: border-box;
+    margin:0;
+    padding: 0;
+}
+body {
+    font-family: 'Noto Sans KR', sans-serif; }
+
+header {
+    background-color: #A5C0FA;
+    width: 1000px;
+    display: flex;
+    margin: auto;
+    flex-direction: column;
+    align-items: center;
+  
+    
+   }
+
+.caja { 
+    
+    width: 70%;
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+     
+    padding: 10px 10px ;
+    justify-content: center;
+    vertical-align: middle;
+      
+
+   }
+
+
+.fotodeperfil {
+    padding: 20px 30px ;
+    width: 240px;
+    height: 220px;
+    border-radius: 50%;
+       
+    }
+
+#titulo-principal{
+    font-size: 60px;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    
+}
+
+
+section {
+    
+    width: 1000px;
+    margin: auto;
+    padding: 15px;
+    font-size: 18px;
+    
+    }
+
+.presentacion {
+    
+    background-color: #ccc4b8;
+    padding: 20px;
+    width: 980px;
+    height: auto;
+    display: flex;
+   
+    margin-top: 2% ; }
+     
+
+.introducción {
+    width: auto;
+    margin: 25px  18px;
+    padding: 5px;
+    font-size: 18px;
+    display: flex;
+    flex-direction: column;
+    text-align: justify;   
+}
+
+.formaciónacadémica div {
+
+    margin: 10px;
+    padding: 5px;
+
+}
+
+
+.experiencialaboral p {
+
+    font-style: italic;
+}
+
+.experiencialaboral div {
+    margin: 10px;
+    padding: 5px;
+}
+#titulo-secundario {
+    
+    background-color: #8A8FE3 ;
+    color: white;
+    padding: 7px;
+    font-size: 21px;
+    font-family: 'Roboto', sans-serif
+    
+
+    }
+
+#titulo-secundario:hover {
+
+        background-color:  #B09AFD ;
+        font-size: 23px;
+        transition: 2s;
+    }
+
+
+
+#tareas {
+
+    margin-left: 20px;
+    padding: 10px;
+}
+#detallehabilidades {
+
+    margin-left: 20px;
+    padding: 10px;
+
+}
+
+
+.contacto {
+    
+    font-size: 17px;
+    width:1000px;
+    padding: 15px;
+    margin: auto;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    vertical-align: middle;
+    align-items: center;
+    
+}
+
+
+
+
+.redesdecontacto {
+    list-style: none;
+    display: flex;
+    width:90%;
+    padding: 5px;
+    margin: 10px;
+    flex-direction: column;
+    vertical-align: middle;
+  
+}
+
+.item {
+    display:inline-flex;
+    width: 80%;
+	height: 45px;
+    padding: 10px;
+  	background-color: #FFF;
+	text-align: center;
+	margin: 3px;
+	transition: .3s;
+	box-shadow: 2px 2px 2px #A5C0FA;
+	position: relative;
+    flex-direction: row;
+    font-size: 1em;
+    justify-content: center;
+    vertical-align: text-bottom;
+    
+   
+}
+.item:hover {
+
+    box-shadow: 4px 4px 4px #9AEDFD;
+    width: 85%;
+    transition: 1s;
+}
+
+.item i {
+
+    padding: 3px 8px;
+    vertical-align: middle;
+}
+
+#btnLocation {
+    border: none;
+}
+.text-location {
+    display: none;
+}    
+.show {
+    display: block;
+}
+
+.inbox {
+    
+    width: 85%;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 15px;
+    padding: 30px;
+    
+    
+    
+
+}
+.inbox legend {
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    padding: 10px; 
+}
+.formulario {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: middle;
+    font-size: 16px;
+    margin: 30px;
+    padding: 10px 5px;
+    width: 80%;
+    height: 80%;
+}
+.formulario input {
+    width: 100%;
+    height: 30px;
+    padding-top: 15px;
+}
+.enviar {
+    width: 40%;
+    margin: 10px 0 10px 30px;
+    padding: 5px;
+    font-size: 20px;
+    background-color: #B5E2E5;
+    color: black; 
+    border: none;
+    border-radius: 5px;
+    align-items: center;
+}
+
+.enviar:hover {
+    background-color: #9AEDFD ;
+    transition: 1s
+};
+     
+   
